@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px auto;
+    grid-template-areas: 
+    "top top top top top top"
+    "main main main main sidebar sidebar"
+    "footer footer footer footer footer footer"
+}
+header {
+    grid-area: top;
+    background-color: green;
+}
+
+main {
+    border: 1px solid black;
+    grid-area: main;
+    background-color: gray;
+    min-height: 400px;
+}
+.item{
+    text-align: center;
+    margin: 0px;
+    padding: 40px;
+     
+     
+}
+.sidebar {
+    grid-area: sidebar;
+    background-color: brown;
+    min-height: 400px;
+}
+footer{
+    grid-area: footer;
+    background-color: hotpink;
+    min-height: 400px;
+}

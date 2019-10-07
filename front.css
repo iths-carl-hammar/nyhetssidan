@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(228, 163, 163);
+    font-family: 'Dancing Script', cursive
+}
+.h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslateblue;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive
+
+}
+header{
+    border: solid;
+    padding: 10px; 
+    background-color: chartreuse
+}
+section{
+    border: solid;
+    padding: 10px;
+    
+}

@@ -1,0 +1,35 @@
+
+
+body{
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "overlap"  "main";
+    border: 2px solid black;
+}
+
+.item1 {
+    background-color: gold;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    grid-area: overlap;
+    justify-content: end;
+    justify-self: end
+    
+    
+
+}
+.item2{
+    background-color: brown;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    grid-area:overlap;
+    align-self: center;
+
+
+}
